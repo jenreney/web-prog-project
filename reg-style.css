@@ -1,0 +1,110 @@
+			body {
+			margin: 0;
+			font-size: 28px;
+  font-family: Andale Mono, monospace;
+			background-image: url('https://images2.alphacoders.com/991/thumb-1920-991761.jpg');
+		}
+		
+				.abs {
+			position:static;
+			margin-top : .9em;
+			width: 100%;
+			
+		}
+		.box {
+			min-height:80px;
+			background:#ffffff;
+			border:1px solid grey;
+			padding:50px;
+			-webkit-border-radius:10px;
+			border-radius:100px;
+			-webkit-box-shadow:#333 5px 5px 2px;
+			width: 500px; /* adjusting text width */
+			height: 650px;
+			font-size: 12px;
+			margin: auto;
+			font-size: 15px;
+			opacity: .9;
+		}
+		
+		* {
+			box-sizing: border-box;
+		}
+		
+		.column {
+			float: left;
+			width: 50%;
+			padding: 10px;
+  
+		}
+
+/* Clear floats after the columns */
+		.row:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+		
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #027961;
+		}
+
+		li {
+			float: left;
+		}
+
+		li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			opacity: .8;
+		}
+
+		li a:hover {
+			background-color: #ddd;
+			color:black;
+		}
+		
+		input[type=button], input[type=submit], input[type=reset] {
+    -moz-border-radius: 25px;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-border-radius: 25px;
+  -webkit-box-shadow: #6E7849 0 0 10px;
+  -webkit-transition: all 0.5s ease;
+  background-color: #d9ff99;
+  background-image: -moz-linear-gradient(90deg, #a3f5e7, #d9ff99);
+  background-image: -ms-linear-gradient(90deg, #a3f5e7, #d9ff99);
+  background-image: -o-linear-gradient(90deg, #a3f5e7, #d9ff99);
+  background-image: -webkit-linear-gradient(90deg, #a3f5e7, #d9ff99);
+  background-image: linear-gradient(90deg, #a3f5e7, #d9ff99);
+  border-radius: 25px;
+  border: 2px dotted #4a5032;
+  color: #3d3d3d;
+  display: inline-block;
+  font-size: 1.91em;
+  margin: auto;
+  padding: 1px;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+input[type=text] , input[type=password]{
+     padding: 7px;
+     font-size: 14px;
+     border-width: 1px;
+     border-color: #CCCCCC;
+     background-color: #FFFFFF;
+     color: #000000;
+     border-style: solid;
+     border-radius: 0px;
+     box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+     text-shadow: -50px 0px 3px rgba(66,66,66,.0);
+}

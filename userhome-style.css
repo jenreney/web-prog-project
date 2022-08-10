@@ -1,0 +1,79 @@
+		body {
+    margin: 0;
+    padding-top: 40px;
+    color: #2e323c;
+    background: #f5f6fa;
+    position: relative;
+    height: 100%;
+}
+		
+		.wrapper {
+    width:100%;
+
+    z-index:10;
+    background:inherit;
+}
+	.header {
+		
+			padding: 38px;
+			text-align: center;
+			background: #115098;
+			position:fixed;
+			width:100%;
+			left:0;
+			top:0;
+			z-index : 5;
+		}
+		
+		.sidenav {
+			height: 90%;
+			width: 150px;
+			position: fixed;
+			z-index: 0;
+			bottom: 0;
+			left: 0;
+			background-color: #6C84A0;
+			overflow-x: hidden;
+			z-index : 5;
+			padding-top: 20px;
+		}
+
+		.sidenav a {
+			padding: 6px 8px 6px 10px;
+			text-decoration: none;
+			font-size: 25px;
+			color: #FFFFFF;
+			display: block;
+		}
+		
+		.sidenav a.active {
+			background-color: #E9E7E7;
+			color: black;
+		}
+
+		.sidenav a:hover {
+			color: #000000;
+			background-color: #EFFAFD;
+		}
+		.main {
+			margin-left: 160px; /* Same as the width of the sidenav */
+			font-size: 28px; /* Increased text to enable scrolling */
+			padding: 0px 10px;
+		}
+		
+		@media screen and (max-height: 450px) {
+			.sidenav {padding-top: 15px;}
+			.sidenav a {font-size: 18px;}
+		}
+		
+		.center {
+  position: relative;
+  left: 170px;
+  width: 1000px;
+  margin-top:100px;
+ 
+}
+
+	section{
+		box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+	}
